@@ -1,0 +1,22 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "./node_modules/.bin/ts-node --project tsconfig.json ./main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@datastax/astra-db-ts": "^1.5.0",
+    "@langchain/community": "^0.3.27",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.14",
+    "openai": "^4.80.1",
+    "puppeteer": "^24.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
